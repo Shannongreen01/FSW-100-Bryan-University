@@ -1,0 +1,32 @@
+h1 {
+ color: blue;
+ font-family: Georgia;
+ text-align: center;
+}
+
+h2 {
+    color: green;
+    font-family: Georgia;
+    text-align: center;
+}
+h3 {
+    color: green;
+    font-family: Georgia;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+p {
+    line-height: 30px;
+}
+
+strong {
+    color: lightcoral
+}
+
+img {
+    float: left;
+    padding: 105px;
+}
