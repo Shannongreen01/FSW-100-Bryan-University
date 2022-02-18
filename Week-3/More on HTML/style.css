@@ -1,0 +1,23 @@
+header {
+    color: blue;
+}
+
+table {
+    border: solid;
+    border-color: black;
+    padding: 1px;
+}
+
+th {
+    border: solid;
+    border-color: black;
+    padding: 5px;
+    margin: 0px
+}
+
+td {
+    border: solid;
+    border-color: gray;
+    border-width: 2px;
+    
+}
