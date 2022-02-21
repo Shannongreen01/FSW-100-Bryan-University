@@ -1,0 +1,8 @@
+.navbar {
+
+    width: 98%;
+    height: 20PX;
+    background-color: blueviolet;
+    border: solid;
+    position:fixed;
+}
