@@ -1,0 +1,24 @@
+.container1 {
+    border: solid;
+    border-color: black;
+    height: 200px;
+    width: 1170px;
+    margin: 10px;
+    float:center;
+    position: fixed;
+}
+
+img {
+    border: solid;
+    border-color: black;
+    height: 174px;
+    width: 200px;
+    margin:10px;
+    position: fixed;
+}
+
+p {
+    float: right;
+    margin-right:450px;
+    
+}
