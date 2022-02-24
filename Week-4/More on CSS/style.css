@@ -1,8 +1,58 @@
 .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 99%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
 
-    width: 98%;
-    height: 20PX;
-    background-color: blueviolet;
+  .h1 {
+    padding-top: 30px;
+    text-align: center;
+    float: center;
+  }
+
+  .blog1 {
+    background-color:blanchedalmond;
+    float: center;
+    height: 300px;
+    width: 59%;
     border: solid;
-    position:fixed;
-}
+    border-color: black;
+    padding: 34px;
+    margin-left: 680px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-top: -95px;;
+    margin-right: 10px;
+  }
+  
+  img {
+    width: 20%;
+    height: 275px;
+    float: right;
+    margin-top: -95px;;
+    margin-right: 10px;
+    position: inherit;
+  }
+  
+ 
+  
+ 
