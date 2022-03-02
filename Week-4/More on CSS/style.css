@@ -1,0 +1,147 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgb(194, 192, 192);
+    position: fixed;
+    top: 0;
+    width: 99%;
+    border: solid;
+  }
+
+
+body {
+    
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/8/13/QCh4yv.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: blur();
+}
+
+img {
+    width: 100%;
+    height: 260px;
+    float: center;
+    margin-bottom: -4px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+
+.menucol1 {
+    height: 80px;
+    background-color: blueviolet;
+}
+
+.row1col1 {
+    width: 10;
+    height: 250px;
+}
+
+.row1col2 {
+    width: 4%;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    background-color: black;
+   
+}
+
+.row1col3 {
+    width: 4%;
+    text-align: center;
+    background-color: lightgrey;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+}
+
+.row1col4 {
+    width: 10%;
+   
+}
+
+.row2col1 {
+    width: 10%;
+    height: 250px;
+}
+
+.row2col2 {
+    width: 4%;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    background-color: black;
+}
+
+.row2col3 {
+    width: 10%;
+    text-align: center;
+    background-color: lightgrey;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+   
+}
+
+.row2col4 {
+    width: 10%;
+   
+}
+
+.row3col1 {
+    width: 10%;
+    height: 250px;
+}
+
+.row3col2 {
+    width: 4%;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    background-color: black;
+}
+
+.row3col3 {
+    width: 10%;
+    text-align: center;
+    background-color: lightgrey;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+   
+}
+
+.row3col4 {
+    width: 10%;
+   
+}
+
+.row4col1 {
+    width: 10%;
+    height: 250px;
+}
+
+.row4col2 {
+    width: 4%;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    background-color: black;
+}
+
+.row4col3 {
+    width: 10%;
+    text-align: center;
+    background-color: lightgrey;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+   
+}
+
+.row4col4 {
+    width: 10%;
+   
+}
