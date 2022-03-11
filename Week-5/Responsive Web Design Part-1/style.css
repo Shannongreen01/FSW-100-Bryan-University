@@ -1,0 +1,60 @@
+.color-one {
+    background-color: #F5C6D6;
+    width: 100%;
+    float: left;
+    height: 25%;
+    border: .5px solid white;
+    box-sizing: border-box;
+}
+.color-two {
+    background-color: #ee2e84;
+    width: 25%;
+    float: left;
+    height: 25%;
+    border: .5px solid white;
+    box-sizing: border-box;
+}
+.color-three {
+    background-color: #85CFD8;
+    width: 50%;
+    float: left;
+    height: 25%;
+    border: .5px solid white;
+    box-sizing: border-box;
+}
+.color-four {
+    background-color: #8DC63F;
+    width: 75%;
+    float: left;
+    height: 25%;
+    border: .5px solid white;
+    box-sizing: border-box;
+}
+.color-five {
+    background-color: #E76E34;
+    width: 25%;
+    float: left;
+    height: 25%;
+    border: .5px solid white;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+}
+@media only screen and (min-width:768px) {
+.color-one {
+    width:100%; 
+}
+.color-two {
+    width:100%;
+}
+.color-thee {
+    width:100%;
+}
+.color-four {
+    width:100%;
+}
+.color-five {
+    width:100%;
+}
+}
