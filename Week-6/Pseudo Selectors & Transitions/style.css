@@ -1,0 +1,128 @@
+ .container {
+    display: grid;
+    gap: 20px;
+    height: 10%;
+    width: 25%;
+    
+  }
+
+  .item1 {
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: red;
+    height: 100%;
+  }
+
+  .item1:hover {
+    border-radius: 50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: black;
+    height: 200%;
+   
+  }
+
+  .item2 {
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: red;
+    height: 80px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .item2:hover {
+    border-radius: 10px;
+    box-shadow: 5px 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: rgba(179, 255, 0, 0.884);
+    height: 80px;
+    width: 200%;
+    height: 100%;
+    margin-top: 100px;
+  }
+ 
+  .item3 {
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+  }
+
+  .item3:hover {
+    border: solid;
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    opacity: .1;
+    
+  }
+
+  .item4 {
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    color: red;
+  }
+  .item4:hover {
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: solid;
+    border-width: 10px;
+    border-color: black;
+  }
+  .item5 {
+    border-radius: 10px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+  }
+  .item5:hover {
+    border-radius: 10px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color:red;
+    width: 100%;
+    height: 100%;
+    opacity:1;
+    transform: skew(-30deg);
+  }
+
+  .item6 {
+    border-radius: 10px;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+  }
+  .item6:hover {
+    border-radius: 10px;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
