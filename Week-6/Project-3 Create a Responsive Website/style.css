@@ -1,0 +1,195 @@
+
+/*Moble First*/
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 35% 19.5% 50% 120% 160% 7%;
+  grid-template-areas: 
+  "logo"
+  "header"
+  "nav"
+  "main"
+  "information"
+  "footer";
+  grid-gap: 0.1rem;
+}
+
+header {
+  grid-area: header;
+
+}
+
+.MainInfo {
+  width: 100%;
+  height:100%;
+}
+
+.info1 {
+  font-size: 30px;
+  font-family: 'Shrikhand', cursive; 
+  color:purple;
+  
+}
+
+.info2 {
+  font-size: 20px;
+  font-family: 'Shrikhand', cursive; 
+  color:black;
+  
+}
+
+button {
+  font-size: 20px;
+  font-family: 'Shrikhand', cursive; 
+  color: black;
+  background-color: yellow;
+  border-radius: 50px;
+  border: solid;
+  border-color: black;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.tabHead {
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  font-family: 'Shrikhand', cursive; 
+  width: 100%;
+  height:100%;
+  background-color: aqua;
+}
+
+.navLink {
+  width: 100%;
+  height:100%;
+  font-size: 15px;
+  font-family: 'Shrikhand', cursive;
+}
+
+.link1 :hover {
+  background-color: black;
+  color: white;
+}
+
+.link2 :hover {
+  background-color: black;
+  color: white;
+}
+
+.link3 :hover {
+  background-color: black;
+  color: white;
+}
+
+.link4 :hover {
+  background-color: black;
+  color: white;
+}
+
+.link5 :hover {
+  background-color: black;
+  color: white;
+}
+
+.link6 :hover {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+  background-image: url("https://cdn-dominionenergy-prd-001.azureedge.net/-/media/images/490x300-cta-button-image/homes/490x300_home_patio.jpg?rev=5b42886a59554c9bb89aa6b631eb8fd9&h=300&w=490&la=en&hash=9176A8AB16F0C7557C53320E8CA674E6");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+}
+
+#logo {
+  grid-area: logo;
+  background-image: url("https://d1g.solar/wp-content/uploads/2021/07/LOGO_DESIGN1SOLAR_SMALL.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+}
+
+#information {
+  grid-area: information;
+}
+
+footer {
+  border: solid;
+  grid-area: footer;
+}
+
+.flex-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+/*Laptop*/
+@media only screen and (min-width:480px) {
+  .container {
+    grid-template-columns: 30% 35% 35% 25%;
+    grid-template-rows: 15% 60% 0% 100% 8%;
+    grid-template-areas:
+    "logo header header header"
+    "nav main main main"
+    "nav main main main"
+    "nav information information information"
+    "footer footer footer footer";
+    grid-gap: 0.1rem;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width:795px) {
+  .container {
+    grid-template-columns: 10% 70% .0% 20%;
+    grid-template-rows: 20% 50% 50% 50% 7%;
+  grid-template-areas:
+  "logo header header information"
+  "nav main main information"
+  "nav main main information"
+  "nav main main information"
+  "footer footer footer footer";
+  grid-gap: 0.1rem;
+  }
+}
