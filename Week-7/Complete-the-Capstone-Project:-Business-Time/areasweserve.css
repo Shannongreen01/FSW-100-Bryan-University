@@ -121,7 +121,7 @@
     background-color: white;
     border-radius: 50px;
   }
-/*Laptop*/
+
 @media only screen and (min-width: 100px) {
   .container {
     height: 180vh;
@@ -139,7 +139,7 @@
 
 }
 
-/*Laptop*/
+
 @media only screen and (min-width: 700px) {
   .container {
     height: 200vh;
@@ -157,7 +157,7 @@
 
 }
 
-/*Laptop*/
+
 @media only screen and (min-width: 850px) {
   .container {
     height: 210vh;
@@ -175,7 +175,7 @@
 
 }
 
-    /*Laptop*/
+  
     @media only screen and (min-width: 1200px) {
       .container {
         height: 120vh;
