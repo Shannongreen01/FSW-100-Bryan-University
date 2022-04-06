@@ -1,5 +1,5 @@
 
-/*Moble First*/
+
 .container {
   display: grid;
   height: 200vh;
@@ -130,7 +130,7 @@ background-color:cornflowerblue;
 
 
 
-/*Laptop*/
+
 @media only screen and (min-width: 100px) {
   .container {
     height: 150vh;
@@ -148,7 +148,7 @@ background-color:cornflowerblue;
 
 }
 
-/*Laptop*/
+
 @media only screen and (min-width: 700px) {
   .container {
     height: 150vh;
@@ -166,7 +166,7 @@ background-color:cornflowerblue;
 
 }
 
-/*Laptop*/
+
 @media only screen and (min-width: 850px) {
   .container {
     height: 200vh;
@@ -184,7 +184,7 @@ background-color:cornflowerblue;
 
 }
 
-    /*Laptop*/
+ 
     @media only screen and (min-width: 1200px) {
       .container {
         height: 100vh;
